@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ibam3" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:text="Simple Ayurvedic Procedures"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:id="@+id/content"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:text="In the wake of the Covid 19 outbreak, entire mankind across the globe is suffering.Enhancing the body’s natural defence system (immunity) plays an important role in maintaining optimum health.We all know that prevention is better than cure. While there is no medicine for COVID-19 as of now,it will be good to take preventive measures which can boost our immunity in these difficult times. "/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:text="Ayurveda, being the science of life, propagates the gifts of nature in maintaining healthy and happy living.Ayurveda’s extensive knowledge based on preventive care, derives from the concepts of “Dinacharya” - daily regimes and “Ritucharya”- seasonal regimes to maintain healthy life. It is a plant-based science. The simplicity of awareness about oneself and the harmony each individual can achieve by uplifting and maintaining his or her immunity is emphasized across Ayurveda’s classical scriptures. Hence certain self-care guidelines for preventive health measures and boosting immunity with special reference to respiratory health. These are supported by Ayurvedic literature and scientific publications."/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:id="@+id/content2"
+            android:paddingTop="12dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:text="Covid-19 वैश्विक महामारी के प्रकोप से पूरे विश्व में मानवजाति पीड़ित है। ऐसे में शरीर को स्वस्थ्य बनाए रखने में उसे प्राकृतिक रोग प्रतिरोधक प्रणाली की भूमिका महत्वपूर्ण हो जाती है। इस रोग में बचाव ही सबसे अच्छी चिकित्सा है। सभी जानते है कि Covid-19 महामारी की कोई दवा अभी तक नहीं बनी है। अतः इस रोग से बचने के लिए शरीर की रोग प्रतिरोधक क्षमता बढ़ाने के उपाय करना ही बेहतर है। आयु एवं स्वास्थ्य से जुड़ा विज्ञान होने के साथ ही आयुर्वेद प्रकृति के साधनों के प्रयोग पर जोर देता है। रोगों से बचाव का आयुर्वेदिक पक्ष मुख्यतः दिनचर्या एवं ऋतुचर्या पर आधारित है। मुख्य रूप से यह पौधों पर आधारित चिकित्सा विज्ञान है।आयुर्वेद शास्त्रों में वर्णित सरल उपायों के द्वारा व्यक्ति अपनी रोग प्रतिरोधक क्षमता को और बेहतर कर सकता है। श्वसन तंत्र स्वास्थ्य सम्बन्धी बचाव और रोग प्रतिरोधक शक्ति बढ़ाने के लिए स्वयं .देखभाल के लिए दिशानिर्देश इस एप्लीकेशन में हैं। यह आयुर्वेदिक ग्रंथों एवं वैज्ञानिक पत्रों पर आधारित है।"
+            android:layout_marginBottom="100dp"/>
+    </LinearLayout>
+</ScrollView>

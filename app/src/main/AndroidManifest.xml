@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="corona.shield">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name=".immunity.ImmunitySimpleAyurvedic" />
+        <activity android:name=".immunity.ImmunityOtherMeasures" />
+        <activity android:name=".immunity.ImmunityGeneralMeasures" />
+        <activity android:name=".immunity.ImmunityDuringDryCough" />
+        <activity android:name=".immunity.ImmunityAyurvedicImmunity" />
+        <activity android:name=".YogaAndExercises" />
+        <activity android:name=".WhyAyurveda" />
+        <activity android:name=".ImmunityBoosting" />
+        <activity android:name=".GoodLifestyle" />
+        <activity android:name=".ForMore" />
+        <activity android:name=".DevelopedBy" />
+        <activity android:name=".CovidCare" />
+        <activity android:name=".CoronaSymptoms" />
+        <activity android:name=".CoronaPrevention" />
+        <activity android:name=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

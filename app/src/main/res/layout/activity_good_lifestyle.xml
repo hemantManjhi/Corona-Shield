@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/good_lifestyle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="10dp"
+            android:text="Good Lifestyle"
+            android:textColor="#222222"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:text="* Rise an hour before sunrise and renounce the bed, then do the routine of the morning."
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:text="* First Prahar (7.00 am to 9.00 am) body massage and use of sun rays for 15 to 20 minutes followed by practicing exercise/yoga for 30 minutes."
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:text="* Nutritious breakfast before 9.00 am, then nutritious meal at a midnight, micro-refreshments at 5.00 pm and dinner after one hour of sunset."
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:text="* At least 6 to 7 hours of sleeping should be done after two hours of dinner."
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:text="With these daily activities, season-based food and well-being is also very helpful for health. Thus, adopting a healthy lifestyle brings good physical force (Immunity). In addition to all these Seasonal fruits and leafy, green vegetables should be consumed. Avoid the use of sleeping, soft drinks, ice cream and other soft materials (refrigerated) during the day."
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="12dp"
+            android:text="* सूर्योदय से एक घण्टा पूर्व उठकर बिस्तर त्याग, तत्पश्चात प्रातः काल के नित्यकर्मों को करना चाहिये।"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:text="* प्रथम प्रहर (7.00 से 9.00 बजे प्रातः) शरीर की मालिश एवं 15 से 20 मिनट तक सूर्य की किरणों का सेवन एवं इसके पश्चात 30 मिनट तक योगाभ्यास/व्यायाम।"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:text="* प्रातः 9.00 बजे से पूर्व पौष्टिक नाश्ता, तत्पश्चात अपरान्ह में पौष्टिक भोजन, सायं 5.00 बजे सूक्ष्म जलपान तथा सूर्यास्त के एक घण्टे पश्चात रात्रि भोजन।"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:text="* रात्रि भोजन के दो घण्टे पश्चात कम से कम 6 से 7 घण्टे शयन करना चाहिये।"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="100dp"
+            android:paddingTop="10dp"
+            android:text="इन दैनिक क्रियाओं के साथ ही ऋतु आधारित भोजन व विहार करना भी स्वास्थ्य हेतु अत्यन्त सहायक है| इस प्रकार स्वस्थ जीवनशैली अपनाने से उत्तम शारीरिक बल (Immunity) की प्राप्ति होती है। इन सभी के अतिरिक्त -मौसमी फल व पत्तेदार, हरी सब्जियों का सेवन करना चाहिये। दिन में शयन, शीतल पेय, आइसक्रीम व अन्य शीतल पदार्थ (फ्रिज में रखे) के सेवन से बचें।"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

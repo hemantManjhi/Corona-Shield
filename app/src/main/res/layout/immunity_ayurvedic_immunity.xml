@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ibam2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Ayurvedic Immunity Promoting Measures"
+            android:textColor="#222222"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:text="1.Take Chyavanprash 10gm (1tsp) in the morning. Diabetics should take sugar free Chyavanprash."
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:text="2.Drink herbal tea / decoction (Kadha) made from Tulsi (Basil), Dalchini (Cinnamon), Kalimirch (Black pepper), Shunthi (Dry Ginger) and Munakka (Raisin) - once or twice a day. Add jaggery (natural sugar) and / or fresh lemon juice to your taste, if needed."
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:text="3.Golden Milk- Half tea spoon Haldi (turmeric) powder in 150 ml hot milk - once or twice a day."
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="12dp"
+            android:text="1. च्वनप्राश 10 ग्राम ( एक चम्मच) सुबह लें। मधुमेह के रोगी शुगर फ्री च्वनप्राश लें।"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+
+            android:text="2. तुलसी, दालचाीनी, कालीमिर्च, सौंठ (सूखी अदरख) एवं मुनक्का से बनी हर्बल टी/काढ़ा दिन में एक से दो बार पियें। स्वादानुसार इसमें गुड़ या ताजा नींबू मिला सकते है।"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="50dp"
+            android:text="3. गोल्डन मिल्क-150 मिली0 गर्म दूध में आधा चम्मच हल्दी चूर्ण दिन में एक से दो बार लें।"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

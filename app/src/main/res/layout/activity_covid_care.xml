@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:src="@drawable/covid_care" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:src="@drawable/save_india" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/p" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/pp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/ppp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:src="@drawable/corona" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:src="@drawable/download" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/social_distancing" />
+
+    </LinearLayout>
+</ScrollView>

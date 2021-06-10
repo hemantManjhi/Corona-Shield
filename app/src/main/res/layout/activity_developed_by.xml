@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="15dp"
+            android:text="About the Developer"
+            android:textColor="#222222"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/profilePhoto"
+            android:layout_width="300dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/heyman" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profilePhoto"
+            android:layout_gravity="center"
+            android:text="This app is made by Hemant Manjhi.               Currently in Final year of Bachelor of Technology in Computer Science Department from Samrat Ashok Technological Institute Vidisha (M.P.)"
+            android:textAlignment="center"
+            android:textColor="#222222"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameText"
+            android:layout_gravity="center"
+            android:text="App version: 1.0.0"
+            android:textColor="#555555"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/linke"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/linkedin" />
+
+        <ImageView
+            android:id="@+id/youtube"
+            android:layout_width="55dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="166dp"
+            android:src="@drawable/youtube" />
+
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/instagram" />
+
+    </RelativeLayout>
+</LinearLayout>

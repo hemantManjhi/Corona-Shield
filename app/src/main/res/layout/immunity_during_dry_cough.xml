@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ibam4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="10dp"
+            android:text="During dry cough / sore throat"
+            android:textColor="#222222"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:text="1.Steam inhalation with fresh Pudina (Mint) leaves or Ajwain (Caraway seeds) can be practiced once in a day."
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:text="2.Laung (Clove) powder mixed with natural sugar / honey can be taken 2-3 times a day in case of cough or throat irritation."
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:text="3.These measures generally treat normal dry cough and sore throat. However, it is best to consult doctors if these symptoms persist."
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="12dp"
+            android:text="1. दिन में एक बार कम से कम पुदीने के पत्ते/अजवाइन डाल कर पानी की भाॅप लें।"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:text="2. खांसी या गले में खराश होने पर लौंग के चूर्ण में गुड़ या शहद मिला कर दिन में दो या तीन बार लें।"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="50dp"
+            android:text="3. ये उपाय सामान्य सूखी खांसी के लिये लाभदायक हैं,फिर भी अगर लक्षण बने रहते हैं तो डाक्टर से परामर्श लें।"
+            android:textColor="#222222"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

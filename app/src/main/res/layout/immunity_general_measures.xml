@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/general" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:text="General Measures"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:id="@+id/content"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:text="1.Drink warm water throughout the day.
+2.Daily practice of Yogasana, Pranayama and meditation for at least 30 minutes as advised by Ministry of AYUSH (#YOGAatHome #StayHome #StaySafe)
+                                                             3.Spices like Haldi (Turmeric), Jeera (Cumin), Dhaniya (Coriander) and Lahsun (Garlic) are recommended in cooking.
+
+"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#222222"
+            android:id="@+id/content2"
+            android:paddingTop="12dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:text="सामान्य उपाय- 1. पूरे दिन केवल गरम पानी पियें।                                                                              2. आयुष मंत्रालय की सलाह के अनुसार प्रतिदिन कम से कम 30 मिनट योगासन, प्राणायाम एवं ध्यान करें।                         3. हल्दी, जीरा, धनिया एवं लहसुन आदि मसालों का भोजन बनाने में प्रयोग करें।
+"
+            android:layout_marginBottom="100dp"/>
+    </LinearLayout>
+</ScrollView>
