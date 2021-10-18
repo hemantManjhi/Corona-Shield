@@ -1,4 +1,5 @@
 # Corona-Shield
+- We stay inside, Corona stay outside.
 The main aim is to develop an informatics android application, which provides information on prevention, symptoms and immunity-boosting measures to keep oneself safe from COVID-19 attack, especially in times where the entire country is stuck at home and struggling with health vulnerability.
 Technology Used: Android Studio, Kotlin, XML, Graphics and Youtube for videos.
 
